@@ -58,45 +58,19 @@ main: #简历主要内容，
   - title: Intel Software Guard Extensions（SGX）
     duration: 2018年9月 - 至今
     summary: SGX原理分析及性能改进
-    detail: - 大
-            - sda 
+    detail: list:
+            - 对SGX的底层页面管理机制进行了深入分析和性能测试
+            - 设计新的页面交换算法来保障使用SGX的程序之间内存占用的公平性
+            - 为SGX加入新的软件机制来提高加载效率和运行效率
 
 - type: projects
   name: Projects
   content:
-  - title: 项目名称
-    duration: xxxx年xx月 - yyyy年yy月
-    detail: 项目和工作介绍，项目总结.
-    sub: 维护者
-  - title: Project Name
-    summary: Projects' introduction or summary
-    detail:
-      md: _data/demo.md
-    sub: Creator and maintainer.
-   #可继续添加更多内容
+  - title: 基于ARM的远程控制及软件开发
+    duration: 2017年10月 - 2018年10月
+    detail: 采用基于ARM指令集的树莓派3和传感器芯片以及光谱仪设备，完成温度，湿度，GPS数据采集，光谱仪数据采集，音频采集，照片及视频采集等功能。
+    sub: 刘希明
 
-#others 其他简略内容(列表)
-others: #其他列表显示
-- type: others #ID可以为空
-  name: '其他'
-  content: #选择需要的格式
-  - 单行文字
-  - title: "加粗:"
-    text: "列表项二"
-  - title: "兴趣:"
-    items: #单行列表
-    - 睡觉
-    - 吃饭
-    - coding
-  - title: 列表
-    list:
-    - 第一项
-    - 第二项
-#- type: 
-#  name: '其他'
-#  content: #选择需要的格式
-#  - 单行文字
-#  - 如果有可以继续添加
 
 #footer 脚注，打印版和web版不同不显示    
 footer: #脚注多组
