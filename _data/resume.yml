@@ -50,13 +50,13 @@ main: #简历主要内容，
   name: 学术研究
   content:
   - title: 嵌入式系统及虚拟化
-    duration: 2018年5月 - 2018年10月
+    sub: 2018年5月 - 2018年10月
     summary: 虚拟化环境中线程级SLO保障的I/O软件框架研究
     detail: 已被《计算机工程与科学》录用
     # open: open
     #可以设置open默认展开
   - title: Intel Software Guard Extensions（SGX）
-    duration: 2018年9月 - 至今
+    sub: 2018年9月 - 至今
     list:
     - 对SGX的底层页面管理机制进行了深入分析和性能测试
     - 设计新的页面交换算法来保障使用SGX的程序之间内存占用的公平性
