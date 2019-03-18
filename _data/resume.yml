@@ -58,7 +58,7 @@ main: #简历主要内容，
   - title: Intel Software Guard Extensions（SGX）
     duration: 2018年9月 - 至今
     summary: SGX原理分析及性能改进
-    list:
+    detail:
     - 对SGX的底层页面管理机制进行了深入分析和性能测试
     - 设计新的页面交换算法来保障使用SGX的程序之间内存占用的公平性
     - 为SGX加入新的软件机制来提高加载效率和运行效率
