@@ -74,7 +74,7 @@ main: #简历主要内容，
     sub: 2017年10月 - 2018年10月
   - title: Elasticsearch环境部署及身份验证系统的搭建
     sub: 2017年7月 - 2017年11月
-    detail：
+    detail:
     - 使用docker完成特定环境下Elasticsearch的部署。
     - 使用Searchguard插件为Elasticsearch添加账户管理系统，为不同的账户分别赋予访问，查询，插入，删除等权限来实现不同等级用户的管理。
 
