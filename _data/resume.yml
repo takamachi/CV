@@ -58,8 +58,8 @@ main: #简历主要内容，
   - title: Intel Software Guard Extensions（SGX）
     duration: 2018年9月 - 至今
     summary: SGX原理分析及性能改进
-    detail: 大
-    detail: 这种
+    detail: - 大
+            - sda 
 
 - type: projects
   name: Projects
