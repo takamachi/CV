@@ -56,20 +56,27 @@ main: #简历主要内容，
     # open: open
     #可以设置open默认展开
   - title: Intel Software Guard Extensions（SGX）
-    list:
-    - 对SGX的底层页面管理机制进行了深入分析和性能测试
-    - 设计新的页面交换算法来保障使用SGX的程序之间内存占用的公平性
-    - 为SGX加入新的软件机制来提高加载效率和运行效率
     sub: 2018年9月 - 至今
+    summary: SGX底层页面管理机制分析及优化
+    detail:
+    - 对SGX的底层页面管理机制进行了深入分析和性能测试。
+    - 设计了一个新的页面交换算法来保障使用SGX的程序之间内存占用的公平性。
+    - 为SGX加入新的软件机制来提高加载效率和运行效率。
+    
 
 - type: projects
   name: Projects
   content:
   - title: 基于ARM的远程控制及软件开发
-    duration: 2017年10月 - 2018年10月
-    detail: 采用基于ARM指令集的树莓派3和传感器芯片以及光谱仪设备，完成温度，湿度，GPS数据采集，光谱仪数据采集，音频采集，照片及视频采集等功能。
-    sub: 刘希明
-
+    detail: 
+    - 采用基于ARM指令集的树莓派3和传感器芯片以及光谱仪设备，完成温度，湿度，GPS数据采集，光谱仪数据采集，音频采集，照片及视频采集等功能。
+    - 与服务器建立websocket连接，根据服务器发送的采集命令来完成对应的数据采集操作，并将采集到的数据上传服务器。
+    sub: 2017年10月 - 2018年10月
+  - title: Elasticsearch环境部署及身份验证系统的搭建
+    sub: 2017年7月 - 2017年11月
+    detail：
+    - 使用docker完成特定环境下Elasticsearch的部署。
+    - 使用Searchguard插件为Elasticsearch添加账户管理系统，为不同的账户分别赋予访问，查询，插入，删除等权限来实现不同等级用户的管理。
 
 #footer 脚注，打印版和web版不同不显示    
 footer: #脚注多组
