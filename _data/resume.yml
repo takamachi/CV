@@ -5,7 +5,7 @@ title: "简历标题"
 lang: "zh" #语言设置 zh表示中文 en 表示英语
 name: "刘希明"
 jobtitle: "研发类" #可空不显示
-photo: "assets/img/photo.jpg" #照片可空，不显示
+photo: "assets/img/cvphoto.jpg" #照片可空，不显示
 
 #联系方式
 contact: #联系方式连接等3~5行
@@ -84,8 +84,6 @@ footer: #脚注多组
   screen:
   - text: "简历脚注"
   #   href: '/'
-  - text: "Made with &hearts; by NewFuture"
-    href: "https://github.com/NewFuture/CV/"
 
 #页面额外js脚本，如xx统计
 scripts:
