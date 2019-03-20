@@ -1,7 +1,7 @@
 # 数据格式可以为 yaml(文件以.yml结尾) 或者json(文件以.json结尾)
 # 如果YAML格式的数据请先检查格式是否有误，可选检查工具 http://www.yamllint.com
 
-title: "简历标题"
+title:
 lang: "zh" #语言设置 zh表示中文 en 表示英语
 name: "刘希明"
 jobtitle: "研发类" #可空不显示
