@@ -88,9 +88,7 @@ main: #简历主要内容，
 - type: others
   name: 其他
   content:
-  list:
   - CET6，曾参与过专业书籍的翻译工作，可以熟练阅读专业相关文献
-  - 南开大学
 
 #footer 脚注，打印版和web版不同不显示    
 footer: #脚注多组
