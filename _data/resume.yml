@@ -44,7 +44,7 @@ main: #简历主要内容，
     - C/C++
     - Python
   - title: Skill Group
-    summary: Linux,docker,CET6
+    summary: Linux, docker, LLVM, QEMU
 
 - type: experience
   name: 学术研究
@@ -52,7 +52,9 @@ main: #简历主要内容，
   - title: 嵌入式系统及虚拟化
     sub: 2018年5月 - 2018年10月
     summary: 虚拟化环境中线程级SLO保障的I/O软件框架研究
-    detail: 已被《计算机工程与科学》录用
+    detail: 
+    - 对虚拟机的系统调用进行修改，使得I/O请求中可以携带必要的服务保障信息。
+    - 扩展virtio协议，让携带的服务保障信息可以跨越虚拟机和宿主机之间的语义鸿沟。已被《计算机工程与科学》录用。
     # open: open
     #可以设置open默认展开
   - title: Intel Software Guard Extensions（SGX）
@@ -82,6 +84,13 @@ main: #简历主要内容，
     - 理解并独立完成JOS操作系统实验的全部内容。
     - 并且在完成的同时指导本科生完成操作系统实验，以及进行难点讲解。
     sub: 2017年9月 - 2019年1月
+
+- type: others
+  name: 其他
+  content:
+  list:
+  - CET6，曾参与过专业书籍的翻译工作，可以熟练阅读专业相关文献
+  - 南开大学
 
 #footer 脚注，打印版和web版不同不显示    
 footer: #脚注多组
