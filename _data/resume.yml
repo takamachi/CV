@@ -85,15 +85,15 @@ main: #简历主要内容，
     - 并且在完成的同时指导本科生完成操作系统实验，以及进行难点讲解。
     sub: 2017年9月 - 2019年1月
 
-- type: others
-  name: 其他
-  content:
-  - title: 英语
-    detail:
-    - CET6，曾参与过专业书籍的翻译工作，可以熟练阅读专业相关文献
-  - title: 个人奖项
-    detail:
-    - 奖学金
+#- type: others
+#  name: 其他
+#  content:
+#  - title: 英语
+#    detail:
+#    - CET6，曾参与过专业书籍的翻译工作，可以熟练阅读专业相关文献
+#  - title: 个人奖项
+#    detail:
+#    - 奖学金
 
 #footer 脚注，打印版和web版不同不显示    
 footer: #脚注多组
