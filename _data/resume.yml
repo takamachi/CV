@@ -1,7 +1,7 @@
 # 数据格式可以为 yaml(文件以.yml结尾) 或者json(文件以.json结尾)
 # 如果YAML格式的数据请先检查格式是否有误，可选检查工具 http://www.yamllint.com
 
-title: "实习求职简历"
+title: "简历标题"
 lang: "zh" #语言设置 zh表示中文 en 表示英语
 name: "刘希明"
 jobtitle: "研发类" #可空不显示
@@ -83,14 +83,14 @@ main: #简历主要内容，
     - 使用Searchguard插件为Elasticsearch添加账户管理系统，为不同的账户分别赋予访问，查询，插入，删除等权限来实现不同等级用户的管理。
 
 - type: others
- name: 其他
- content:
- - title: 英语
-   detail:
-   - CET6，曾参与过专业书籍的翻译工作，可以熟练阅读专业相关文献
- - title: 个人奖项
-   detail:
-   - 南开大学学业奖学金
+  name: 其他
+  content:
+  - title: 英语
+    detail:
+    - CET6，曾参与过专业书籍的翻译工作，可以熟练阅读专业相关文献
+  - title: 个人奖项
+    detail:
+    - 南开大学学业奖学金
 
 #footer 脚注，打印版和web版不同不显示    
 footer: #脚注多组
