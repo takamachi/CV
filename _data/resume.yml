@@ -79,11 +79,6 @@ main: #简历主要内容，
     detail:
     - 使用docker完成特定环境下Elasticsearch的部署。
     - 使用Searchguard插件为Elasticsearch添加账户管理系统，为不同的账户分别赋予访问，查询，插入，删除等权限来实现不同等级用户的管理。
-  - title: JOS操作系统实验
-    detail:
-    - 理解并独立完成JOS操作系统实验的全部内容。
-    - 并且在完成的同时指导本科生完成操作系统实验，以及进行难点讲解。
-    sub: 2017年9月 - 2019年1月
 
 #- type: others
 #  name: 其他
