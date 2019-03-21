@@ -62,8 +62,10 @@ main: #简历主要内容，
     summary: SGX底层页面管理机制分析及优化
     detail:
     - 对SGX的底层页面管理机制进行了深入分析和性能测试。
-    - 设计了一个新的页面交换算法来保障使用SGX的程序之间内存占用的公平性。
-    - 为SGX加入新的软件机制来提高加载效率和运行效率。
+    - 设计了一个全局LRU的页面交换算法来保障使用SGX的程序之间内存占用的公平性。
+    - 在SGX的驱动中加入了启发式的页面预取算法，通过对程序触发的Page fault异常的访存行为进行分析来决定是否进行预取以及预取页面的地址。
+    - 学习并熟练使用SPEC CPU2017测试工具，并使用LLVM对SPEC中的benchmark进行静态分析，寻找可以认定为连续访存的区域。
+    - 使用LLVM在较大的连续访存中自动插入对SGX驱动的提示，让SGX可以根据这些提示对页面进行预取。
     
 
 - type: projects
@@ -80,15 +82,15 @@ main: #简历主要内容，
     - 使用docker完成特定环境下Elasticsearch的部署。
     - 使用Searchguard插件为Elasticsearch添加账户管理系统，为不同的账户分别赋予访问，查询，插入，删除等权限来实现不同等级用户的管理。
 
-#- type: others
-#  name: 其他
-#  content:
-#  - title: 英语
-#    detail:
-#    - CET6，曾参与过专业书籍的翻译工作，可以熟练阅读专业相关文献
-#  - title: 个人奖项
-#    detail:
-#    - 奖学金
+- type: others
+ name: 其他
+ content:
+ - title: 英语
+   detail:
+   - CET6，曾参与过专业书籍的翻译工作，可以熟练阅读专业相关文献
+ - title: 个人奖项
+   detail:
+   - 南开大学学业奖学金
 
 #footer 脚注，打印版和web版不同不显示    
 footer: #脚注多组
