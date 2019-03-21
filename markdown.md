@@ -6,7 +6,6 @@ photo: 'assets/img/cvphoto.jpg'
 contact:
   email: 'ximingliu_nk@hotmail.com'
   phone: '15620948548'
-  location: '天津市津南区海河教育园区南开大学津南新校区计算机学院'
   github: 'takamachi'
 ---
 
