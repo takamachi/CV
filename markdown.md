@@ -14,9 +14,6 @@ contact:
 
 -----------
 
-## 个人介绍
-
-
 ## 教育背景
 2016.9-至今&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
 南开大学&nbsp;&nbsp;&nbsp;&nbsp;
