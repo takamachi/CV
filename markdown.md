@@ -2,7 +2,7 @@
 layout: markdown
 title: ''
 lang: 'en'
-photo: 'assets/img/photo.jpg'
+photo: 'assets/img/cvphoto.jpg'
 contact:
   email: 'ximingliu_nk@hotmail.com'
   phone: '15620948548'
