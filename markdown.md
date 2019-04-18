@@ -19,7 +19,9 @@ contact:
 南开大学&nbsp;&nbsp;&nbsp;&nbsp;
 计算机学院，计算机科学与技术&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
 硕士
+
 主要课程：计算机网络技术，高级计算机体系结构，并行计算技术，计算机算法设计与分析，模式识别，WEB大数据挖掘
+
 多次获得南开大学学业奖学金
 
 2013.9-2017.6&nbsp;&nbsp;&nbsp;&nbsp;
