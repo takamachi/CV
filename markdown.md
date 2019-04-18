@@ -19,7 +19,8 @@ contact:
 南开大学&nbsp;&nbsp;&nbsp;&nbsp;
 计算机学院，计算机科学与技术&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
 硕士
-### 主要课程 计算机网络技术，并行计算技术，高级计算机系统结构，计算机算法设计与分析
+### 主要课程
+计算机网络技术，并行计算技术，高级计算机系统结构，计算机算法设计与分析
 
 2012.9-2016.6&nbsp;&nbsp;&nbsp;&nbsp;
 南开大学&nbsp;&nbsp;&nbsp;&nbsp;
