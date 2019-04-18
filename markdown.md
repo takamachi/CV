@@ -19,6 +19,8 @@ contact:
 南开大学&nbsp;&nbsp;&nbsp;&nbsp;
 计算机学院，计算机科学与技术&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
 硕士
+主要课程：计算机网络技术，高级计算机体系结构，并行计算技术，计算机算法设计与分析，模式识别，WEB大数据挖掘
+多次获得南开大学学业奖学金
 
 2013.9-2017.6&nbsp;&nbsp;&nbsp;&nbsp;
 南开大学&nbsp;&nbsp;&nbsp;&nbsp;
@@ -26,17 +28,7 @@ contact:
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
 学士
 
-## 技能
-
-### 编程语言
-* C++
-* Python
-
-### Skill Group
-* Linux
-* Docker
-* LLVM
-* QEMU
+主要课程：高级语言程序设计（C++）, 数据结构，操作系统，计算机组成原理，数字电子技术，模拟电子技术，自动控制原理，概率论与数理统计
 
 ## 学术研究
 ### 嵌入式系统及虚拟化
@@ -50,7 +42,7 @@ contact:
 #### 2018年9月 - 至今
 <details>
  <summary>SGX底层页面管理机制分析及优化</summary>
-  对SGX的底层页面管理机制进行了深入分析和性能测试。设计了一个全局LRU的页面交换算法来保障使用SGX的程序之间内存占用的公平性。在SGX的驱动中加入了启发式的页面预取算法，通过对程序触发的Page fault异常的访存行为进行分析来决定是否进行预取以及预取页面的地址。学习并熟练使用SPEC CPU2017测试工具，并使用LLVM对SPEC中的benchmark进行静态分析，寻找可以认定为连续访存的区域。使用LLVM在较大的连续访存中自动插入对SGX驱动的提示，让SGX可以根据这些提示对页面进行预取。
+  对SGX的底层页面管理机制进行了深入分析和性能测试。设计了一个全局LRU的页面交换算法来保障使用SGX的程序之间内存占用的公平性。在SGX的驱动中加入了启发式的页面预取算法，通过对程序触发的Page fault异常的访存行为进行分析来决定是否进行预取以及预取页面的地址。通过页面预取来提高SGX的访存性能。
 </details>
 
 
@@ -67,6 +59,7 @@ contact:
 ## 其他
 ### 英语
 CET6，曾参与过《嵌入式计算系统设计原理》的翻译工作，可以熟练阅读专业相关文献
-### 个人奖项
-南开大学学业奖学金
-
+### 专业技能
+熟练使用编程语言C/C++/Python
+熟练使用Linux
+了解Docker, LLVM, QEMU等相关技术
